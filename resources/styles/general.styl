@@ -1,0 +1,38 @@
+//TODO To be refactored
+@require "colors"
+
+@font-face
+  font-family: retro-computer
+  src: url("../fonts/whitrabt.woff2") format("woff2")
+  src: url("../fonts/whitrabt.woff") format("woff")
+  font-style: normal
+
+nav.sierra-style
+  font-family: retro-computer
+  border-color: black
+  border-style: solid
+  border-width: medium
+  border-radius: 3px
+  height: 32px
+  position: fixed
+  z-index: 999
+  display: table
+  width: 100%
+  justify-content: flex-start
+
+nav.sierra-style a, button
+  background-color: white
+  color: black
+  height: 32px
+  padding-right: 1em
+  padding-left: 1em
+  vertical-align: middle
+  display: table-cell
+  width: 10%
+
+nav.sierra-style a:hover, button:hover
+  background-color: black
+  color: white
+
+nav.sierra-style a:selected
+  background-color: white
